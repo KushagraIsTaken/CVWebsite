@@ -1,7 +1,7 @@
 ---
 title: "AI/ML Applications in Agriculture and Food Processing"
-dateModified: ""
-datePublished: ""
+dateModified: "01-01-2025"
+datePublished: "01-01-2025"
 topics:
   - Upcoming
   - Book Chapter
