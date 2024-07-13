@@ -21,8 +21,8 @@ defineOgImageComponent('General')
       <AppParagraph look="heading" class="mt-4" tag="h1">About me</AppParagraph>
       <div class="lg:grid grid-cols-2 lg:items-end mt-16 lg:mt-0">
         <div class="lg:hidden">
-          <img class="w-48 h-48 rounded-full mx-auto" width="192" height="192" src="/img/me@2x.jpg"
-            alt="Photo of Alexander Lichter">
+          <img class="rounded-full mx-auto" width="192" height="192" src="/img/kush-pp.png"
+            alt="Photo of Kushagra Agrawal">
         </div>
         <div class="-mt-16 lg:mt-0">
           <div class="prose lg:prose-lg lg:mt-8">
