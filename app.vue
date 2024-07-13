@@ -28,18 +28,18 @@ function useAppSeo() {
     definePerson({
       address: {
         '@type': 'PostalAddress',
-        addressCountry: 'NL',
-        addressLocality: 'Amsterdam',
-        addressRegion: 'Noord Holland',
-        postalCode: '1087 JK',
-        streetAddress: 'IJburglaan 1024'
+        addressCountry: 'IN',
+        addressLocality: 'Hyderabad',
+        addressRegion: 'Shivarampally',
+        postalCode: '500030',
+        streetAddress: '305, Tower 12, Provident Kenworth'
       },
-      name: 'Alexander Lichter',
-      image: '/img/me@2x.jpg',
-      email: 'mailto:hello@lichter.io',
-      nationality: "German",
-      jobTitle: 'Web Engineering Consultant & Managing Director',
-      url: 'https://www.lichter.io/',
+      name: 'Kushagra Agrawal',
+      image: '/img/kush-pp.png',
+      email: 'mailto:kush4409@gmail.com',
+      nationality: "Indian",
+      jobTitle: 'Research Intern',
+      url: 'https://www.kushagraagrawal.online/',
       sameAs: [
         ...Object.values(SOCIALS),
         'https://stackoverflow.com/users/3975480/mannil',
@@ -52,7 +52,7 @@ function useAppSeo() {
 
   useServerSeoMeta({
     author: 'Kushagra Agrawal',
-    ogSiteName: 'www.lichter.io',
+    ogSiteName: 'www.kushagraagrawal.online',
   })
 
   const styleConfig = {
@@ -84,7 +84,6 @@ function useSiteNotifications() {
     if (result) {
       await new Promise((resolve) => setTimeout(resolve, 1000))
     }
-    onUserSpeaksGerman()
   })
 
   function onDicsordRef(): Boolean {
@@ -101,28 +100,6 @@ function useSiteNotifications() {
         { type: 'text', text: ' instead?' },
       ]
     })
-    return true
-  }
-
-  function onUserSpeaksGerman(): Boolean {
-    const doesSpeakGerman = navigator.languages.some(lang => lang.startsWith('de'))
-    if (!doesSpeakGerman) {
-      return false
-    }
-
-    const didUserSeeGermanNotificationAlready = localStorage.getItem(LOCALSTORAGE_KEYS.notificationGerman)
-    if (didUserSeeGermanNotificationAlready) {
-      return false
-    }
-
-    addNotification({
-      heading: 'Ich spreche auch Deutsch!',
-      body: 'Alle Workshops und Talks können auch auf Deutsch gehalten werden.',
-      onRemove() {
-        localStorage.setItem(LOCALSTORAGE_KEYS.notificationGerman, 'true')
-      }
-    })
-
     return true
   }
 }
