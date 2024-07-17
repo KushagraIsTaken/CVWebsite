@@ -1,10 +1,6 @@
 export const SOCIALS = {
-  twitter: 'https://twitter.com/TheAlexLichter/',
-  mastodon: 'https://hachyderm.io/@manniL',
-  github: 'https://github.com/manniL/',
-  youtube: 'https://www.youtube.com/@TheAlexLichter/',
-  twitch: 'https://www.twitch.tv/TheAlexLichter/',
-  linkedin: 'https://www.linkedin.com/in/alexanderlichter/',
+  github: 'https://github.com/KushagraIsTaken/',
+  linkedin: 'https://www.linkedin.com/in/kushagra-agrawal-51a3121ab/',
 } as const
 
 export const LOCALSTORAGE_KEYS = {
