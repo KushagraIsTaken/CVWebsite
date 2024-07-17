@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       site: {
-        url: 'https://www.lichter.io',
+        url: 'https://www.kushagraagrawal.online',
       }
     }
   },
@@ -41,8 +41,8 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://www.lichter.io',
-    name: 'Alexander Lichter',
+    url: 'https://www.kushagraagrawal.online',
+    name: 'Kushagra Agrawal',
     trailingSlash: true,
   },
 
@@ -53,7 +53,7 @@ export default defineNuxtConfig({
   },
 
   plausible: {
-    domain: 'lichter.io',
+    domain: 'kushagraagrawal.online',
     apiHost: 'https://plausible.lichter.io',
   },
 

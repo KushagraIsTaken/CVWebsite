@@ -18,7 +18,7 @@ function useAppSeo() {
   })
 
   useHead({
-    titleTemplate: (c) => c ? `${c} - Alexander Lichter` : 'Alexander Lichter - Web Engineering Consultant',
+    titleTemplate: (c) => c ? `${c} - Kushagra Agrawal` : 'Kushagra Agrawal - AI Engineer',
     link: [
       { rel: 'icon', href: favicon, type: "image/svg+xml" },
     ],
@@ -42,7 +42,7 @@ function useAppSeo() {
       url: 'https://www.kushagraagrawal.online/',
       sameAs: [
         ...Object.values(SOCIALS),
-        'https://stackoverflow.com/users/3975480/mannil',
+        'https://stackoverflow.com/',
         'https://www.developmint.de/',
       ]
     }),
