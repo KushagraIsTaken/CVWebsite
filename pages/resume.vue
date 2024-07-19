@@ -15,7 +15,7 @@ defineOgImageComponent('General')
 
 // Redirect to Google Drive link
 onMounted(() => {
-  window.location.href = 'https://drive.google.com/file/d/1QEgKlGB0nvWx3KZVkkibFPhVRcQiz-2m';
+  window.location.href = 'https://drive.google.com/file/d/15Dgz1RFnetcWqhykw-TP_1vlbX_2dCd6';
 });
 </script>
 
@@ -24,7 +24,7 @@ onMounted(() => {
     <AppSection>
       <ParagraphDecoration />
       <AppParagraph look="heading" class="mt-4" tag="h1">Redirecting to my Resume...</AppParagraph>
-      <p>If you are not redirected automatically, <a href="https://drive.google.com/file/d/1QEgKlGB0nvWx3KZVkkibFPhVRcQiz-2m">click here</a>.</p>
+      <p>If you are not redirected automatically, <a href="https://drive.google.com/file/d/15Dgz1RFnetcWqhykw-TP_1vlbX_2dCd6">click here</a>.</p>
     </AppSection>
   </div>
 </template>
