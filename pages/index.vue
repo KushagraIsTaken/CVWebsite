@@ -69,7 +69,7 @@ const { data: workshops } = useAsyncData('latest-workshops', () => queryContent(
     </AppSection>
     <AppSection class="my-32">
       <div class="flex flex-col gap-16 md:gap-8 md:flex-row justify-around">
-        <LazyServicePreview icon="mdi:lightbulb-on-outline" title="Research" to="/consulting">
+        <LazyServicePreview icon="mdi:lightbulb-on-outline" title="Research" to="/articles">
         Actively contributing to the scientific community as a researcher and reviewer through research and reviewing articles, book chapters, and magazines        </LazyServicePreview>
         <LazyServicePreview icon="ph:chalkboard-teacher-light" title="Learn" to="/workshops">
           An active learner in the field of Machine Learning, Deep Learning, Transformers, Vision Transformers, LLMs and Cloud Services
